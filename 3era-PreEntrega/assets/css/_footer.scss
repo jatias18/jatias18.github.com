@@ -1,0 +1,33 @@
+/**Variables**/
+$primary-color: #45ab48;
+$secundary-color: #212529;
+$title-font: "Roboto";
+$subtitle-font: "Raleway";
+
+.footer{
+    background-color: $primary-color;
+    color: white;
+    height: 250px;
+    padding: 20px 0;
+
+    .menufooter{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: $primary-color;
+        padding-left: 20%;
+        padding-right: 20%;
+        }
+      
+      .nav-link:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+      
+      .derechos{
+        background-color: $primary-color;
+        padding-top: 5px;
+        padding-bottom: 0px;
+      }
+  
+  }

@@ -1,0 +1,31 @@
+@import "_reset";
+
+
+
+@import "_header";
+
+.titulo-principal {
+    justify-content: center;
+    text-align:center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+
+  .h2 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20%;
+    font-size: 28px;
+      
+  }
+  
+  .textocontacto{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+  }
+
+  @import "_responsive";
+
+  @import "_footer";
